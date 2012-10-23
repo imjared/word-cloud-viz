@@ -1,0 +1,241 @@
+/* line 1, ../sass/_normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 2, ../sass/_normalize.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 3, ../sass/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 4, ../sass/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 5, ../sass/_normalize.scss */
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 6, ../sass/_normalize.scss */
+body {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 7, ../sass/_normalize.scss */
+body, button, input, select, textarea {
+  font-family: sans-serif;
+  color: #222;
+}
+
+/* line 8, ../sass/_normalize.scss */
+::-moz-selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 9, ../sass/_normalize.scss */
+::selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 10, ../sass/_normalize.scss */
+a {
+  color: #00e;
+}
+
+/* line 11, ../sass/_normalize.scss */
+a:visited {
+  color: #551a8b;
+}
+
+/* line 12, ../sass/_normalize.scss */
+a:hover {
+  color: #06e;
+}
+
+/* line 13, ../sass/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 14, ../sass/_normalize.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 15, ../sass/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 16, ../sass/_normalize.scss */
+b, strong {
+  font-weight: bold;
+}
+
+/* line 17, ../sass/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 7, ../sass/screen.scss */
+body {
+  padding: 1% 2%;
+  background: #eee;
+}
+
+/* line 12, ../sass/screen.scss */
+#questions-cont {
+  width: 75%;
+  margin: 0 auto 0;
+  text-align: center;
+}
+/* line 16, ../sass/screen.scss */
+#questions-cont a {
+  font-size: 15px;
+  display: inline-block;
+  padding: 1em;
+  text-decoration: none;
+  color: #00254c;
+  font-family: 'ABeeZee', sans-serif;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+/* line 27, ../sass/screen.scss */
+#questions-cont a.active {
+  color: rgba(255, 255, 255, 0.5);
+  background: #222;
+}
+
+/* line 34, ../sass/screen.scss */
+#svg-cont {
+  width: 300px;
+  margin: 0 auto 350px;
+  position: relative;
+}
+/* line 38, ../sass/screen.scss */
+#svg-cont svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: red !important;
+}
+
+/* line 1, ../sass/_tools.scss */
+.ir {
+  display: block;
+  border: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+  *line-height: 0;
+}
+
+/* line 2, ../sass/_tools.scss */
+.ir br {
+  display: none;
+}
+
+/* line 3, ../sass/_tools.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 4, ../sass/_tools.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 5, ../sass/_tools.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 6, ../sass/_tools.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 7, ../sass/_tools.scss */
+.required {
+  color: red;
+}
+
+/* line 8, ../sass/_tools.scss */
+.floatl {
+  float: left;
+  margin: 0;
+  padding: 0 10px 10px 0;
+}
+
+/* line 9, ../sass/_tools.scss */
+.floatr {
+  float: right;
+  margin: 0;
+  padding: 0 0 10px 10px;
+}
+
+/* line 10, ../sass/_tools.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 11, ../sass/_tools.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 12, ../sass/_tools.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 14, ../sass/_tools.scss */
+::-moz-selection {
+  background: #1fb9e7;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 15, ../sass/_tools.scss */
+::selection {
+  background: #1fb9e7;
+  color: #fff;
+  text-shadow: none;
+}
